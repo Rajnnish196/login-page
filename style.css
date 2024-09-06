@@ -1,0 +1,115 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif; 
+}
+
+
+.container {
+    width: 100vw;
+    height: 100vh; 
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    background-color:#000000; 
+  
+  
+}
+
+
+.inner-box {
+    background-color: #f1f1f1; 
+    width: 30vw; 
+    height: 80vh; 
+    display: flex; 
+    flex-direction: column; 
+    padding: 50px; 
+    border-radius: 20px; 
+    justify-content: center;
+    border-radius: 50px 5px;
+    box-shadow: 8px 8px 70px aqua;
+}
+
+
+.inner-box input {
+    width: 100%; 
+    padding: 10px; 
+    margin-bottom: 15px; 
+     
+    background: #f1f1f1; 
+    
+    border-radius: 4px;
+}
+.email{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    
+}
+
+
+.button input{
+    background-color: #794cb2;
+}
+#email,#password{
+    border: none;
+    border-bottom: 2px solid blue;
+    margin-bottom: 5px;   
+}
+
+#email::placeholder , #password::placeholder{
+    font-size: 19px;
+    
+    
+   
+}
+
+#email:focus , #password:focus{
+    outline: none;
+}
+#button , .forgot, create{
+    margin-top: 25px;
+}
+#email{
+    margin-bottom: 25px;
+}
+.forgot p , .create p{
+    text-align: center;
+}
+.forgot{
+    padding-top: 30px ;
+    font-size: 19px;
+}
+#button{
+    font-size: 19px;
+    margin-top: 40px;
+}
+.create span , .forgot span{
+    font-size: 20px;
+}
+.create{
+    padding-top: 15px ;
+    font-size: 19px;
+}
+.inner-box img{
+    width: 95px;
+    height: 95px;
+    margin: auto;
+    margin-bottom: 110px;
+}
+
+#button{
+    cursor: pointer;
+    border: none;
+    font-size: 24px;
+    color: #fff;
+}
+#button:hover{
+    background-color: black;
+    color: #fff;
+}
+input{
+    font-size: 20px;
+}
